@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.app-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.task-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: border 0.3s ease;
+}
+
+.task-input:focus {
+    outline: none;
+    border: 2px solid #3498db;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.primary-btn {
+    background-color: #27ae60;
+    color: #fff;
+    margin-right: 10px; /* Adds space between the buttons */
+}
+
+.primary-btn:hover {
+    background-color: #2ecc71;
+    transform: scale(1.05);
+}
+
+.danger-btn {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.danger-btn:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li {
+    background-color: #f8f9fa;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.task-list li:hover {
+    background-color: #ecf0f1;
+}
+
+.task-number {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #3498db;
+}
+
+.array-status {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 1rem;
+    color: #2c3e50;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.array-status strong {
+    color: #3498db;
+}
+
+.array-status p {
+    padding: 8px;
+    border-left: 4px solid #3498db;
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    word-wrap: break-word;
+    background-color: #ecf0f1;
+}

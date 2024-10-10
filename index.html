@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Task List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Simple Task List</h1>
+        <div class="input-group">
+            <input type="text" id="taskInput" class="task-input" placeholder="Enter a task">
+            <button id="addTaskButton" class="btn primary-btn">Add Task</button>
+            <button id="removeLastTaskButton" class="btn danger-btn">Remove Last Task</button>
+        </div>
+        <ul id="taskList" class="task-list"></ul>
+        <div id="arrayStatus" class="array-status"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
